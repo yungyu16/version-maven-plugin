@@ -13,6 +13,7 @@
 版本号格式为 `x.y.z`或`x.y.z-SNAPSHOT`，`xyz`为有效的正整数
 
 ## 集成
+已发布到中央仓库，依赖坐标如下：
 ```xml
 <plugin>
     <groupId>com.github.yungyu16.maven</groupId>
