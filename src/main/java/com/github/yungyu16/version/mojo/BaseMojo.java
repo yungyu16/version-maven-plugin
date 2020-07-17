@@ -20,6 +20,7 @@ public abstract class BaseMojo extends AbstractMojo {
     @Parameter(defaultValue = "${project}", readonly = true, required = true)
     protected MavenProject mavenProject;
 
+    @Override
     public void execute() throws MojoFailureException {
         LogUtil.initDelegateLog(getLog());//初始化全局日志
         InputStream bannerStream = getClass().getResourceAsStream("/banner.txt");

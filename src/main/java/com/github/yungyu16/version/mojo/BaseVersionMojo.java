@@ -6,6 +6,7 @@ import com.github.yungyu16.version.util.PomUtil;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Sets;
 import org.apache.maven.model.Model;
+import org.apache.maven.model.Parent;
 import org.apache.maven.project.MavenProject;
 
 import java.io.File;
@@ -67,10 +68,11 @@ public abstract class BaseVersionMojo extends BaseMojo {
                     .map(Path::toAbsolutePath)
                     .forEach(paths::add);
         }
-        String relativePath = pomModel.getParent().getRelativePath();
-        if (relativePath != null) {
+        final Parent parent = pomModel.getParent();
+        if (parent != null
+                && parent.getRelativePath() != null) {
             //父pom
-            Path parentPath = thisPomDirPath.resolve(Paths.get(relativePath));
+            Path parentPath = thisPomDirPath.resolve(Paths.get(parent.getRelativePath()));
             if (Files.exists(parentPath)) {
                 LogUtil.debug("存在本地父pom:" + parentPath);
                 paths.add(parentPath);
