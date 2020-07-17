@@ -17,9 +17,11 @@
 <plugin>
     <groupId>com.github.yungyu16.maven</groupId>
     <artifactId>version-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>release-tag</version>
 </plugin>
 ```
+>[查看release-tag](https://github.com/yungyu16/version-maven-plugin/tags) 
+
 一般的Maven大型聚合项目中，版本号在父模块中定义，所有子模块使用从父模块继承的版本号。
 
 建议将版本插件添加到顶层父模块中，执行指令时会递归的修改所有子模块版本号。
