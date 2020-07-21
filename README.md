@@ -30,6 +30,6 @@
 ![命令](doc/goals.png)
 
 - `makeRelease`  将快照版本变为正式版本 `x.y.z-SNAPSHOT -> x.y.z`
-- `nextMajorVersion`  变更为下一个主版本 `x.y.z -> （x+1).0.0-SNAPSHOT`
+- `nextMajorVersion`  变更为下一个主版本 `x.y.z -> (x+1).0.0-SNAPSHOT`
 - `nextMinorVersion`  变更为下一个次版本 `x.y.z -> x.(y+1).0-SNAPSHOT`
 - `nextPatchVersion`  变更为下一个补丁版本 `x.y.z -> x.y.(z+1)-SNAPSHOT`
