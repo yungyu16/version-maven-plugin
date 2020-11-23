@@ -1,4 +1,4 @@
-![version-maven-plugin](https://socialify.git.ci/yungyu16/version-maven-plugin/image?description=1&language=1&owner=1&theme=Light)
+![version-maven-plugin](https://socialify.git.ci/yungyu16/version-maven-plugin/image?description=1&language=1&owner=1&pattern=Circuit%20Board&theme=Light)
 
 <p align="center">
     <br/>
