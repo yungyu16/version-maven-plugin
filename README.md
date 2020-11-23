@@ -1,5 +1,12 @@
-# version-maven-plugin
-这是一个用于对Maven聚合继承项目的版本号进行便捷变更的工具。
+![version-maven-plugin](https://socialify.git.ci/yungyu16/version-maven-plugin/image?description=1&language=1&owner=1&theme=Light)
+
+<p align="center">
+    <br/>
+    <br/>
+    <b>这是一个用于对Maven聚合继承项目的版本号进行便捷变更的工具</b>
+    <br/>
+    <br/>
+</p>
 
 在使用RPC框架的微服务架构中，为了让服务消费者实现像调用本地方法一样透明的通过网络进行RPC，服务提供者一般会提供facade jar用于服务消费者集成并通过动态代理生成本地调用stub。随着业务进展，facade jar需要频繁升级版本号。
 
