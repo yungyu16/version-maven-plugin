@@ -25,7 +25,7 @@
 <plugin>
     <groupId>com.github.yungyu16.maven</groupId>
     <artifactId>version-maven-plugin</artifactId>
-    <version>release-tag</version>
+    <version>1.0.1</version>
 </plugin>
 ```
 >[查看release-tag](https://github.com/yungyu16/version-maven-plugin/tags) 
